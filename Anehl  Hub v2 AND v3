@@ -1,3 +1,217 @@
+-- V1
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Angel Nihasa Hub V1", "LightTheme")
+local Tab = Window:NewTab("Discord")
+local Section = Tab:NewSection("Link: https://discord.gg/kN3Pd4tNYh")
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Games Scripts")
+Section:NewButton("Prisoner Life Admin V1", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+Section:NewButton("Hood Modeda", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Airsoft0001/69/main/69"),true))()
+end)
+Section:NewButton("Adopt Me", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+Section:NewButton("Bed Wars", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+Section:NewButton("Jailbreak(Key:sx_57rvQEOYByjJn6AE3)", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+Section:NewButton("Arsenal", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+Section:NewButton("Bee Swarm Simulator", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+Section:NewButton("Da Hood", "Script", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+Section:NewButton("Rag Doll Engine", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+end)
+Section:NewButton("Pet Sim X", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua"))() 
+end)
+Section:NewButton("The Wild West", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"))()
+end)
+Section:NewButton("Yotuber Life", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/main/YouTube%20Life/Auto%20Farm.lua"))()
+end)
+Section:NewButton("Murder Myster 2", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+end)
+Section:NewButton("Sonic Speed", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+Section:NewButton("Ro Ghoul", "ButtonInfo", function()
+    print("Clicked")
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+end)
+Section:NewButton("Survive The Killer ", "ButtonInfo", function()
+    print("Clicked")
+	local games = {
+ 
+    ["SurviveTheKiller"] = 4580204640
+ 
+}
+ 
+for i,v in pairs(games) do
+    if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua"))() end
+end
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
+end)
+
+Section:NewButton("Combat Warriors", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
+end)
+Section:NewButton("Brookhaven", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/93d59eb6d826262396d8436868e73033/raw/eaa85b6545ff8a06fe89d7093cb3666461b628e8/gaga", true))()
+end)
+Section:NewButton("Project Lazarus", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:NewTab("FE Scripts")
+local Section = Tab:NewSection("Fe Scripts R6 only")
+Section:NewButton("Pendulum Hub", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+Section:NewButton("Syntax V3 (Key is SyntaxV3Free)", "ButtonInfo", function()
+    print("Clicked")
+    shared.colors = {
+    Icons = Color3.fromRGB(0,255,149),
+    Version = Color3.fromRGB(0,255,149),
+    Text = Color3.fromRGB(255,255,255),
+    Description = Color3.fromRGB(125,125,125),
+    TabList = Color3.fromRGB(30,30,30),
+    Scripts = Color3.fromRGB(30,30,30),
+    Back = Color3.fromRGB(25,25,25),
+    Glow = Color3.fromRGB(0,0,0),
+}
+shared.transparency = {
+    Version = 0,
+    Text = 0,
+    Description = 0,
+    Icons = 0,
+    Back = 0,
+    Glow = 0.5,
+    TabList = 0,
+    Scripts = 1,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Memeboiyot/Syntax-V3-Free/main/Syntax%20v3", true))()
+end)
+Section:NewButton("SyntaxV2 ( Key is Syntaxbesthub)", "ButtonInfo", function()
+    print("Clicked")
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))()
+end)
+Section:NewButton("SyntaxV1.3 ( Key is Syntaxontop)", "ButtonInfo", function()
+    print("Clicked")
+   -- key is Syntaxontop
+_EXQetvaEodoyegn5, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+
+,nil,nil;(function() _msec=(function(_l,_,__)local _ll__l=_[(57+-#{{},(function()return#{('foKBhh'):find("\75")}>0 and 1 or 0 end),1})];local ___l_l=__[_l[((-#'federal u suck let me do fucking emojis in here asshole'+(-79+0x49))+0x2e4)]][_l[((1632-0x36b)+-#"what the fuck is sleep")]];local __ll=(10+-#{'}';'nil';",",(function()return#{('obPMFH'):find("\80")}>0 and 1 or 0 end),{},(function()return{','}end)()})/(-#'disagree'+(122-((8509/(0xd2-143))+-#"Luraph v14 ETA?")))local ___=(((-#[[heres a hint: repeat until nil]]+(1322360/0x34))/0xfe)-98)-((0x32-38)+-#"Wocky Slush")local __llll=__[_l[((9552/0x30)+-#[[while true do end]])]][_l[(-23+0xef)]];local _l_l_=((-0x6f+((-#"This file has been enchanted with uncrackable V, fuck the fuck off"+(0x181a10/(-#'This file has been enchanted with uncrackable V, fuck the fuck off'+(0xe3+-35))))/0x56))+-#[[this file was obfuscated manually]])+(92/0x2e)local _l_lll=__[_l[(0x262+-97)]][_l[(198450/0xe1)]]local _l_=(354/0xb1)-((0x51-(0xb4-(-0x15+134)))+-#'i hate niggas')local __l_=(-#'This file has been enchanted with uncrackable V, fuck the fuck off'+((-#{119,'}';(function()return{','}end)(),(function()return{','}end)();(function()return#{('lfKHbm'):find("\75")}>0 and 1 or 0 end);'nil'}+195)-0x79))local ___ll=(9+-#{1;(function()return{','}end)();",";(function()return#{('omPFBB'):find("\80")}>0 and 1 or 0 end);(function()return{','}end)();'}',(function()return{','}end)()})local ____=(182/(21294/(25740/(10780/0x62))))local __l_l=(-#{(function()return{','}end)(),",",30;{};(function()return{','}end)();(function()return#{('kLmPMh'):find("\109")}>0 and 1 or 0 end)}+8)local _l__=((-#{",",(function()return{','}end)(),{},",";(function()return{','}end)(),'nil'}+424)/0xd1)local _ll_=(-#[[Protected by wallysecure]]+(-0x3e+((193+(-80+(0x50+(-0x40f8/189))))+-#"JayZone Likes Men")))local _l_ll=((((0xe1+(-11-0x33))+-0x3e)+-#'hi skid')-91)local _llll=(((85+-#{'nil',",";",";'nil'})+-0x36)+-#'Unrepeats your until nil')local ___l=(0x26-((-0x67a1/(573-0x14e))+0x92))local _l__l=(-#{1;1;(function()return#{('kmFkoo'):find("\70")}>0 and 1 or 0 end)}+6)local _l_l=(0x48/((-0x45ab/(499-0x126))+111))local __lll=((0x86+(-201-((-#[[cry about it]]+((-0x72+84)+-18))+-0x1c)))+-#'table.concat = nil')local _ll__=(((-0x9d-((-0x558/((162-0x79)+-#[[i hate noobmaster]]))+-#'Lies'))+-#"moonsec source leak")+0x77)local _____=(9+-#{'}';{},(function()return#{('kmHlHF'):find("\72")}>0 and 1 or 0 end),(function()return#{('kmHlHF'):find("\72")}>0 and 1 or 0 end),199})local ____l=(11+-#{1;'nil','nil',",",'nil','}','nil'})local _l___=(0x288/((-0x29+(0x2d0-406))+-111))local _ll_ll=((943+-#{(function()return#{('phKkhb'):find("\75")}>0 and 1 or 0 end);'nil';{},1;",",34,1})/234)local __l_ll=(((((((33-(0x244c/202))+-#"WHERE DO YOU FEEL THE PAIN IF YOUR LEG GETS CUT OFF?")+24257)/108)+-#[[when the same meme string gets posted a trillion times]])+-79)+-#'helloretard will face off against MoonSec if Federal keeps deleting my strings fuck you')local _lll_l=_l[((2847-0x5c6)+-#[[chrome sex me]])];local __ll_l=__[_l[(-#{1;(function()return{','}end)(),'nil',111,",";","}+188)]][_l[(-#"This script has been enchanted with Uncrackable V"+((295122/0x3)/0xca))]];local _l_l_l=__[(function(_)return type(_):sub(1,1)..'\101\116'end)('PfhkKHmf')..'\109\101'..('\116\97'or'pbhkmkpB').._l[(1126-0x265)]];local _ll_l=__[_l[(-#"fivem when they block the PSU watermark"+(1157-0x25d))]][_l[(2014-0x3f8)]];local __l__=((0xb1-147)+-#[[moonsec v5 coming in 10 days]])-(((-#"Perths Scripting Shit"+(0x5e56/(13500/0x5a)))+-0x5b)+-#'I have enchanted this script with uncrackable V')local ___l_=(-#"finally, the most perfect ship in history... teefus x sirhurt"+(215-(-62+((548-(-#"You know c#? What does << operator do?"+(32680/0x5f)))+-#[[no icepool fans allowed kthx]]))))-((0x948/132)+-#'follow your nose')local _l__ll=__[_l[(189+-#{",";'}';24,(function()return#{('mKlkFH'):find("\108")}>0 and 1 or 0 end),(function()return#{('mKlkFH'):find("\108")}>0 and 1 or 0 end);97,1})]][_l[((0x1e0+-77)+-#"Wally loooooooves federal")]];local _=function(_,_l)return _.._l end local _lllll=((5624/0x94)+-#'Nice constant dumper you got there')*((0x1eba4/(0xdc+-65))/0xcb)local ____ll=__[_l[(-0x36+1167)]];local __l=(0x67-101)*((-0x38+((-0xd4+89)+0x1033))/31)local ___lll=((0x45d+-89)+-#'sexy')*(((0x4be6/(0x170-223))+-#[[This file has been enchanted with uncrackable V, fuck the fuck off]])-66)local __l__l=(170-(355-(0xc17d/209)))local _lll_=(((((0x2c43a2/98)+-#[[psu got dumped so hard their entire source code came out rofl]])/211)-0x73)+-#'LOL ur gonna fail probs')*((0xab+-94)+-#[[How to deobfuscate: function deobfuscate() while true do end; deobfuscate()]])local __ll_=__[_l[(-#{1,1;(function()return{','}end)();{},1,(function()return#{('oPLLhK'):find("\76")}>0 and 1 or 0 end),1}+1026)]]or __[_l[(0x443-578)]][_l[(-#{1,1;(function()return{','}end)();{},1,(function()return#{('oPLLhK'):find("\76")}>0 and 1 or 0 end),1}+1026)]];local _lll=(0x21f-((0x27f+-44)-0x134))local _l=__[_l[((-0x1b+-65)+1386)]];local _l_lll=(function(__l)local _lll,__=1,0x10 local _l={j={},v={}}local _ll=-_l_ local _=__+___ while true do _l[__l:sub(_,(function()_=_lll+_ return _-___ end)())]=(function()_ll=_ll+_l_ return _ll end)()if _ll==(_lllll-_l_)then _ll=""__=__l__ break end end local _ll=#__l while _<_ll+___ do _l.v[__]=__l:sub(_,(function()_=_lll+_ return _-___ end)())__=__+_l_ if __%__ll==__l__ then __=___l_ _ll_l(_l.j,(_l__ll((_l[_l.v[___l_]]*_lllll)+_l[_l.v[_l_]])))end end return _l_lll(_l.j)end)("..:::MoonSec::..bBfFlLkKoOpPhHmMmPfBOHKklMBpbkHpPFohPpofobLHMPboofLlfHbklFfBblhHPfomLOKbphobLOFflmLbfhbHHHlpfFMpHFphMlHBKLBOmOhfOPPkPhopKoBmfbMhhkpBBKMphKpbKOPooHlHfFBPbkPOOKKFLhfBbkMoLHFbbOmfFFblHbpKoPkllPpmoFLhFLLoLpfMbKFhlMflMHHkMPmHhKpmKOMBhLOmKKOHOoKblbfHLKkmFMBoMBbhBfmbhmKLobLffopoKlllBHMkBMBlmfHFOoKmfhFFbbkfLBffMPHlMbmKhPplKFlPfkbKhKLFfKbbHOMoMpHkpbKPkOmbpBKpLFOhkkLBfPMLhPpPoOffFbBLmhoKpFkPLpmPbpPOKpLKFMFhMbHkkBFkbMmoBBMPmLhbHPbKHKPboOpLpFKLLMfKbfmhPkOhKHmbPLomkKooKmLFfMFfoKLkfMboFlfMbLHfpkoBLhBKBmmPLHFHbHmkPMHpmbpmOhlfllfbmphLKKfBmPhlOHHphfomfBlFfkphhHOMoOLHFLbKmmhKpKBlHMPoOBPopoOFkOFHBLMFhoOoKMfmBbmLPHFpflMpHFphMFhFpmkfMbhfOPKlOLOpKFloMomMHKKpBhmmhKpbhBhkOMKlflBPbFMklPBpMFhhblHHhpOLkhLKfHMOHfPKFLMhHBppoFhFOkKPlhmpOhKflPfllffOMMmmKbFpBFmhbkbfHPOLOMkKlOfoHLhKpHKhLHfMBLLpLOfmbKmbbBMKhhpokMMmhMpooBPhOhobBFfbbMHMPPkbbFHlpHokPfOPoFlMFBmFmpPKMBbOHOPfoPhKpLKKkBfOblmmPoOmbKmOPKObkOomobLLFBbPMBPppbkPLLfboKKllKfbMOBFBoMFHfploFmphmOpKFlhokkmlbHMbbhKOHKhLhFLbpmPobbobPHhPLomPppLoHlLfmBFmMPPkHBFmBPpOFpHpOoPkbFmMPmKhopFoBlPPBOhKBlpfFkFFkBPmhhklBBfmPhlHMmLPFpBloLFfLMPfMlkBKMbhOmPmOhKpBkKlHBPMkfblhBhMLhmMmmMhPOHKmLlBmMOHlOpfhMpHFphHBhHOpKBLLBfbKHLhkoPKBpfPLopkFFhLHLFfoblkPLOfPblHHMOMmHppkkBkoFLkMOFLKFbbOlkflbKHbPLOBLhMMBBmpoPOhLMfhbohPmKpLOhLflBmHOOkBFpBFlPbpMkhoPLOHKoFhMOMhhppmOBLkFBBBPBhMFlbKmbPObLHFpLoBkLlkHfohLpFFbhlofkMhHFPloLLhlbBOmPHBBkBpmphFOhmhpMOFkPlhffMbhOpBplBbhopBKpPPpbKOlmfphpOoKBoPLLlbBpmlPpOpKoBBBMblHPKkOfLplOHpPOhlkMKkLObkmPpkmmfOMmHKPbhhhFpmKhoMhmOMKoLBKfKolOBkMhHkpOKHkhHfplKHLkOKKhLLfphHOPKlfbbBHbpOofpBOHKMlPBfMHmFhbookmFPPkoKkbFOLpLMFobHhkPmOPKLlbhFohkLFmLMkLFkbFmOhFOkkpFBfKbbHmOFKHkKlfMOoOLOFfbPFPBmbfHpPPOBLMFoBbFPkoFKBbmOfmbpHLPBOOKFlpBpMohpHmBmmmhKpbmbPFOokOLbBPMHHPpkbhMhhhpLKmplOBKbLbflbomfppolFkHoppoFLhoPKFlpFlbomlKmfkbfHkpMoopOpOoBLBFmKhKpLbfObfFhflMkKhloBoMBhpBpmPhKOOKpLbBpMLHbHffkMkhMpoMoPMOLKlLlfHbfPOoHkbbLHlpHokhopPKHlHfMbPmohFOOkLhPPHoPklFHofLlfObLHMhLOMKOFMfPbFPPloBPMlhHMkmPPOppkMLLffOOkmlKfbkbFFBomOHKlfbMmohBmFmBhfOlkOFhbFmmHlPBKOLMfhplKoLBfpLLlLBhMkHPPpflMfhPplhbPMpFKBLPBMbBHMpHoKkKMppmofLPFlkblOfmbpHkoofkMhHLpmhoPbofpbMBhlOHKkpBoHkmlOfKMBKPLfBKMbhOMLmbhoKHKolofLMfHhPhkhLklbBPhFOMplkhLBffhbKOlofBMpBpBBMOPBOhofLMfPMmHOOMfHMMHoPBhHhhPbKmkofhbmHMLkfPblHHfkMbHpPLkhMKhhpLKmhPOOKklKlOpfkHlkBMLMFfBKmohMOpKhLpfLhoHpPMOokHHoPPookBFpkKLmfmbLHmPLOPlKLBBOMPHphHffMBhppFhKPmOBKfFbfLMFmlpOoMFlHkpooBLpOOKmLlfPmOPKoPhlbhHlpHokPBOHoBLkfhMMHkhfohklfhfkMpHkOmKHLlkppPKpLFfhlMLBfkMmpHpKKmkFFBbPHBLPFBbpmFboMpHLFOfkMOHfpPHBhhplKplHFpBlKklhfLMmBmBLMHbllKBlmHhkmbHhPLkMKPLbfKmMpppBohLpLOphKHLkfMLhfHfPHoPoOpkHlOlppmofLPFlLblmflbPmLLMfFMhHLPbOmkbFOBfmhhlOHKkkBkbbBHpPFpkkLFmBKMbhOpfKPLlfHbkHMPoOBkplFBHMLhmpKobLOllbPmlPmOkKLlofBMpmLphoLLMFKFMmOhfOPOplHfkbbHoPpopklFhlFmmhPHFKOLffPbHHHPKoMkhKlBpMFhhpMKmLoFbbObOPPOlkHlKBMMoHBphOpLhFkbmmKhbOOKfLHflMHHKpMmlkBFpBFMmhLOmKoLbklbfHPPlOMkkFMBpMBmLpFKhLLlmbKmbPPOfkHllFLMkmBpooBLmFFFMmLPmOKKblOffbbHlpmokLMFoBBmphFOmKLLFfKbbHOPfoPklFmBkmMhopFKpLFfhbLHMPKOBkOlFBPMlhHpkKMLoFfbpmFPhOKkmlKfbMhHppPolLHKlBfmohBOpmkhBoKklHPPboOkfOHoHkBfPBOKhLBfpbFFMBHmMHOmbBOMfhPplKHLkOMlolLPpOFkhlLBmMKhbmoFoLPFlbHmkfLplKBlpfFkfFKMKhHhLPbkFlBBHbkhPPbpfbKHpPFohHoPfoOLOFKbOOhLlfHbkMBhhOBkHlFfFMLhmpKobKfFfbmmlhbOkKblofKffHFpMoLkLFKBBmOhfOPKoobfkMMHoPoopklFhfKbfhKpFKOLOfPblHHPkpokollBpMkhhpkKmLKKobOmLPPOkkHlkBMbpHPppokLhFpbmmKhbpPKOlPfoMHHhpMookBlhBFmhhpOmKhLbfObfHPPloHkhFMBoMBhppFomLLfmbmmbPmOfkPllfBMkhMpHoBKKFFbHmLPmHmKbLfffMMHlpHokKBllBBMlhFplKLlmfKfbHOPfOLkllKBkMfhohBKpLFFKbLHmPKOBkOlfBPMlHppkoKLoFBbpmFPhOLKhlKfoMOHfpPolLHFkBpmohMOpKLlhlLMmHKPPoOkHFPBkmHhkOMKoLhfpbLHhPKomkKlbBOMHhPpMKHLOfMfomBPpOmkhLbBmMPHbpOofLPFmbHmoPMOpKBlpfFMhHOpmObkblFBfmPhlOHKMlMfPbBHhPFphkLFmBpMbHfpfKMLlFBfbHMPHOBKKlFBHMLmbPPobLmFfBfmlPHOkkMkmfBMMHFpHoLkfFKBbFBhfOMKllMfkMMHoPBPBkFFhBLmMhKpbKOLffPblHHPoOBkolBBplLHBpLKmLKpbkhlFfKbboBlkBMMoHBppoFLhFLfhmKhbOOolLLflMMHkPBookBFpfLMkhLpBKKLffObfHPhkpBkklFBoMfhppFKhLPllbKmLPOOfkPlLBHMphMpopFLpFFbhmKPmOKKblOllMPHlpHokLMFoBBmpmLOhKLlmfpbbHOPfoPokFHBkmMhOpBKpLFfhlPHmPPObkPlfBhMlHFppKMLoFBBkmFPHOLkMlKflfhHfpPolkOFkBbmohLhHKFlhfLBoHKPBoOkolpBlmHhkPOKoLffpblHhPOhBkKlbBObhhPpLKHLhFFbomfPpplkhlkBmMKHbpHPLLPFlbHMKPMOOKBlmLkMhHLpmpBkbFpBfmPmoOHKplMfpbBHHPFohoOFmBhMbhhpfKHLlFFBLHMPhOBollFBHMLHFpKolohFfbPmlHKOkKblofBBmHFPboLkbFKBFmOhfPMKlLffkbfHoPFopkOlPBLMfhKPpKOLFfPbOHHPphfkolBBpbHhhpkKmLPkFbOmfPPpMkHlKBMMoHKppoKLhFLbmmKhbOOOBlPfoMHHKpMookBFpLPmhhOOmKOLbfObfHPHPoHkkFMBOMBhppFKHLLfmbKmbPOOfkPllflMkhMpooBkLFFbhmLPMOKKblOffMPHlpHokLMFoBBmphFOhKLlmfKbbHOPfoPklFHBkmMhoplKpLFfhbLHmPKObkOlfBPMlhHpkKMLoFBbpmLPhOLkmlKfbMOHfpPoLLHFkbMmohBOpKF");local _ll_l=(0x6e+-71)local __=21 local _ll=_l_;local _l={}_l={[((0x8e-99)+-#'moonsec source: if code then obfuscate end')]=function()local _,_l_,_l,___=__llll(_l_lll,_ll,_ll+_l_l_);_ll=_ll+_lll_;__=(__+(_ll_l*_lll_))%_lll;return(((___+__-(_ll_l)+__l*(_lll_*__ll))%__l)*((__ll*___lll)^__ll))+(((_l+__-(_ll_l*__ll)+__l*(__ll^_l_l_))%_lll)*(__l*_lll))+(((_l_+__-(_ll_l*_l_l_)+___lll)%_lll)*__l)+((_+__-(_ll_l*_lll_)+___lll)%_lll);end,[(0x4a+-72)]=function(_,_,_)local _=__llll(_l_lll,_ll,_ll);_ll=_ll+___;__=(__+(_ll_l))%_lll;return((_+__-(_ll_l)+___lll)%__l);end,[(-#'should stop wasting your time on trying to crack this >:)'+((0xc330c/205)/0x41))]=function()local _,_l=__llll(_l_lll,_ll,_ll+__ll);__=(__+(_ll_l*__ll))%_lll;_ll=_ll+__ll;return(((_l+__-(_ll_l)+__l*(__ll*_lll_))%__l)*_lll)+((_+__-(_ll_l*__ll)+_lll*(__ll^_l_l_))%__l);end,[((10752/0xe0)+-#[[fucking fuck fuck fucks fucker fucking fucka]])]=function(_l,_,__)if __ then local _=(_l/__ll^(_-_l_))%__ll^((__-___)-(_-_l_)+___);return _-_%_l_;else local _=__ll^(_-___);return(_l%(_+_)>=_)and _l_ or ___l_;end;end,[((68850/0x51)/170)]=function()local __=_l[(-#[[this file is protected by the cheeto door lock]]+(203-(0x172-214)))]();local _=_l[(-#[[did you solve the lua challenge yet?]]+(3330/0x5a))]();local _l_l=_l_;local _ll=(_l[(-0x15+25)](_,___,_lllll+_lll_)*(__ll^(_lllll*__ll)))+__;local __=_l[(-#'while true do end'+(0x91+-124))](_,21,31);local _=((-_l_)^_l[(108-0x68)](_,32));if(__==___l_)then if(_ll==__l__)then return _*___l_;else __=___;_l_l=__l__;end;elseif(__==(__l*(__ll^_l_l_))-___)then return(_ll==___l_)and(_*(___/__l__))or(_*(___l_/__l__));end;return ___l_l(_,__-((_lll*(_lll_))-_l_))*(_l_l+(_ll/(__ll^__l__l)));end,[(0x2b2/115)]=function(_,__ll,__ll)local __ll;if(not _)then _=_l[(0x5a-89)]();if(_==___l_)then return'';end;end;__ll=__ll_l(_l_lll,_ll,_ll+_-_l_);_ll=_ll+_;local _=''for _l=___,#__ll do _=_lll_l(_,_l__ll((__llll(__ll_l(__ll,_l,_l))+__)%_lll))__=(__+_ll_l)%__l end return _;end}local function ___lll(...)return{...},____ll('#',...)end local function _l_lll()local ____={};local _ll_={};local _={};local _l__={____,_ll_,nil,_};local __={}local __lll=(138+-0x3d)local _ll={[((0x1a3-259)/160)]=(function(_)return not(#_==_l[(0x38-54)]())end),[(0x0/85)]=(function(_)return _l[(-29+0x22)]()end),[((-#[[I have enchanted this script with uncrackable V, your only option is to fuck the fuck off.]]+(234+-0x4c))+-0x42)]=(function(_)return _l[((0xbd-(203+-0x3c))+-#'You know math? sqrt(-2) * sqrt(-32) = ??')]()end),[(0x81/43)]=(function(_)local __=_l[(0x7e-120)]()local _l=''local _=1 for _ll=1,#__ do _=(_+__lll)%_lll _l=_lll_l(_l,_l__ll((__llll(__:sub(_ll,_ll))+_)%__l))end return _l end)};_l__[3]=_l[(0x1ac/214)]();local _=_l[(0x27-38)]()for __l=1,_ do local _=_l[(41-0x27)]();local _l;local _=_ll[_%(0xdfc/179)];__[__l]=_ and _({});end;for __l=1,_l[(-#"no she is 7000 y.o with huuuuuge milkers"+(0x691/(0xb6-141)))]()do local _=_l[(-19+0x15)]();if(_l[(-#"sussy fortnite balls"+(96+-0x48))](_,_l_,___)==__l__)then local _lll=_l[(980/0xf5)](_,__ll,_l_l_);local _ll=_l[(0x1b4/109)](_,_lll_,__ll+_lll_);local _={_l[(0xcf/69)](),_l[(0x1c-25)](),nil,nil};local ___l={[((-116+0xa4)+-#[[Fun and games until a = (function() a() end) a()]])]=function()_[_llll]=_l[(0x6f/37)]();_[_ll_ll]=_l[(-#[[69 w ya roomm8s]]+(3078/0xab))]();end,[((56-0x30)+-#"sup v 2")]=function()_[_l_l]=_l[(162/0xa2)]();end,[(-#'Oh so you constant dumped the script? Ladies and gentleman we got genius there'+(0x1950/81))]=function()_[_llll]=_l[(0x68-103)]()-(__ll^_lllll)end,[(118-0x73)]=function()_[___l]=_l[(0x6b/107)]()-(__ll^_lllll)_[____l]=_l[(0x2d/15)]();end};___l[_lll]();if(_l[(0x24c/147)](_ll,___,_l_)==___)then _[__l_l]=__[_[__l_]]end if(_l[(0x44+-64)](_ll,__ll,__ll)==_l_)then _[_l_l]=__[_[_l_l]]end if(_l[(0x334/205)](_ll,_l_l_,_l_l_)==___)then _[____l]=__[_[_____]]end ____[__l]=_;end end;for _=___,_l[(72-0x47)]()do _ll_[_-___]=_l_lll();end;return _l__;end;local function ___l_(_l,_lll_,_ll_l)local __=_l[__ll];local _l__ll=_l[_l_l_];local _l=_l[_l_];return(function(...)local __llll=___lll local __l__=__;local _l_l_=-___;local ___lll={};local __={};local __l={...};local _lll=_l;local _l_lll=____ll('#',...)-___;local _lllll={};local _ll=_l_;local _l=_l__ll;for _=0,_l_lll do if(_>=_l)then ___lll[_-_l]=__l[_+___];else __[_]=__l[_+_l_];end;end;local _l=_l_lll-_l+_l_ local _l;local __l;while true do _l=_lll[_ll];__l=_l[(0x63-98)];_=(6685680)while(-42+0x4e)>=__l do _=-_ _=(1010070)while((0xbc-139)+-#"free_lua_deobfuscator.hacker.com")>=__l do _=-_ _=(7641072)while(0x4e-70)>=__l do _=-_ _=(7969878)while(90+-0x57)>=__l do _=-_ _=(3048353)while(0x1b/27)>=__l do _=-_ _=(5852760)while __l>(-126+0x7e)do _=-_ if __[_l[__l_l]]then _ll=_ll+_l_;else _ll=_l[_llll];end;break end while 3876==(_)/((173650/0x73))do local __l;local __ll,_l_l;local ___;local _;_ll_l[_l[_l__l]]=__[_l[____]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[___ll]]=_ll_l[_l[__lll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_]]=_ll_l[_l[_l_ll]];_ll=_ll+_l_;_l=_lll[_ll];_=_l[__l_];___=__[_l[_llll]];__[_+1]=___;__[_]=___[_l[_ll_ll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]=_l[__lll];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_l__]]=(_l[_l__l]~=0);_ll=_ll+_l_;_l=_lll[_ll];_=_l[_l__]__ll,_l_l=__llll(__[_](__ll_(__,_+1,_l[__lll])))_l_l_=_l_l+_-1 __l=0;for _=_,_l_l_ do __l=__l+_l_;__[_]=__ll[__l];end;_ll=_ll+_l_;_l=_lll[_ll];_=_l[_ll_]__[_]=__[_](__ll_(__,_+_l_,_l_l_))_ll=_ll+_l_;_l=_lll[_ll];__[_l[___ll]]();_ll=_ll+_l_;_l=_lll[_ll];do return end;break end;break;end while 3599==(_)/(((0x720-(1974-0x413))+-#"go ahead. replace loadstring with dump. do it."))do _=(1718702)while __l>(-0x50+82)do _=-_ local _=_l[_l__];local _l_=__[_+2];local __l=__[_]+_l_;__[_]=__l;if(_l_>0)then if(__l<=__[_+1])then _ll=_l[_l__l];__[_+3]=__l;end elseif(__l>=__[_+1])then _ll=_l[___l];__[_+3]=__l;end break end while(_)/(((2613-0x559)+-#'This file has been enchanted with uncrackable V, fuck the fuck off'))==1459 do __[_l[__l_]]=_lll_[_l[_llll]];break end;break;end break;end while 2942==(_)/((-#'I am eq opcode lmaooooo'+(5490-0xac6)))do _=(935130)while(-#"This file was obfuscated with luraph obfuscator v13.2"+(0x3660/240))>=__l do _=-_ _=(5752464)while(-17+0x15)<__l do _=-_ __[_l[__l_l]]=__[_l[_l_l]]%_l[_l___];break end while(_)/((0x180a-3120))==1896 do if(__[_l[____]]~=__[_l[____l]])then _ll=_ll+___;else _ll=_l[___l];end;break end;break;end while(_)/((689-0x180))==3066 do _=(839272)while(-0x74+122)>=__l do _=-_ __[_l[_l__]]=(_l[__lll]~=0);_ll=_ll+___;break;end while 392==(_)/((0x1130-2259))do _=(15850180)while __l>(0x47-64)do _=-_ __[_l[___ll]]=_l[_l_ll];break end while 3935==(_)/((4101+-0x49))do local ___;local __l;local _;__[_l[__l_]]=_l[_llll];_ll=_ll+_l_;_l=_lll[_ll];__[_l[____]]=_l[_llll];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_]]=#__[_l[_l__l]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]=_l[__lll];_ll=_ll+_l_;_l=_lll[_ll];_=_l[__l_];__l=__[_]___=__[_+2];if(___>0)then if(__l>__[_+1])then _ll=_l[_l_l];else __[_+3]=__l;end elseif(__l<__[_+1])then _ll=_l[___l];else __[_+3]=__l;end break end;break;end break;end break;end break;end while 2258==(_)/((622656/0xb8))do _=(3254086)while __l<=(-#'brick luke deez nuts'+(0xb3-147))do _=-_ _=(2075272)while(0x72-104)>=__l do _=-_ _=(4360644)while(0x5b+-82)<__l do _=-_ __[_l[____]]=_l[_l_l];break end while 1068==(_)/(((0x1075+-101)+-#[[Get it bc perth needs to stfu]]))do local _=_l[__l_l];local __l=__[_]local _l_=__[_+2];if(_l_>0)then if(__l>__[_+1])then _ll=_l[___l];else __[_+3]=__l;end elseif(__l<__[_+1])then _ll=_l[__lll];else __[_+3]=__l;end break end;break;end while(_)/((-#'soonmec'+(3534+-0x2d)))==596 do _=(4559590)while __l>(-#[[luraph better than psu XD]]+(-0x2d+81))do _=-_ local _lll_;local __l;local ____;local _;__[_l[___ll]]=_ll_l[_l[_llll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_l]]=__[_l[_l_l]][_l[_ll__]];_ll=_ll+_l_;_l=_lll[_ll];_=_l[_ll_];____=__[_l[_l_l]];__[_+1]=____;__[_]=____[_l[_ll_ll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[___ll]]=__[_l[__lll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_]]=__[_l[___l]];_ll=_ll+_l_;_l=_lll[_ll];_=_l[_ll_]__[_]=__[_](__ll_(__,_+_l_,_l[___l]))_ll=_ll+_l_;_l=_lll[_ll];_=_l[_l__];____=__[_l[___l]];__[_+1]=____;__[_]=____[_l[____l]];_ll=_ll+_l_;_l=_lll[_ll];_=_l[__l_l]__[_]=__[_](__[_+___])_ll=_ll+_l_;_l=_lll[_ll];__l={__,_l};__l[___][__l[__ll][__l_l]]=__l[_l_][__l[__ll][_l___]]+__l[___][__l[__ll][_l__l]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_l__]]=__[_l[_l__l]]%_l[_ll__];_ll=_ll+_l_;_l=_lll[_ll];_=_l[_ll_]__[_]=__[_](__[_+___])_ll=_ll+_l_;_l=_lll[_ll];____=_l[_l_ll];_lll_=__[____]for _=____+1,_l[_ll__]do _lll_=_lll_..__[_];end;__[_l[___ll]]=_lll_;_ll=_ll+_l_;_l=_lll[_ll];__l={__,_l};__l[___][__l[__ll][___ll]]=__l[_l_][__l[__ll][_____]]+__l[___][__l[__ll][_l_ll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]=__[_l[___l]]%_l[_____];break end while 1855==(_)/((24580/0xa))do __[_l[__l_]]=_lll_[_l[__lll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]=#__[_l[_l__l]];_ll=_ll+_l_;_l=_lll[_ll];_lll_[_l[___l]]=__[_l[_l__]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_l]]=_lll_[_l[_l__l]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_]]=#__[_l[_l_ll]];_ll=_ll+_l_;_l=_lll[_ll];_lll_[_l[_l_ll]]=__[_l[____]];_ll=_ll+_l_;_l=_lll[_ll];do return end;break end;break;end break;end while(_)/((0xf36/3))==2507 do _=(11623878)while((0x12f3/231)+-#'SoonMec')>=__l do _=-_ _=(2266120)while __l>(-44+0x39)do _=-_ __[_l[__l_]]=#__[_l[_l_l]];break end while 1252==(_)/((0x4642e/159))do if(__[_l[____]]~=__[_l[_l___]])then _ll=_ll+___;else _ll=_l[_l_ll];end;break end;break;end while(_)/((-#[[This is my kingdom cum, this is my kingdom cum]]+(0x1ffe-(-#'guys listen... sussex XD'+(0x20a6-4201)))))==2898 do _=(570184)while __l<=(-0x4e+93)do _=-_ if(__[_l[___ll]]==__[_l[_l___]])then _ll=_ll+___;else _ll=_l[_l_ll];end;break;end while(_)/((0x356c0/104))==271 do _=(583652)while __l>((168-0x7b)+-#'powered by ROBLOX Corporation')do _=-_ local _ll=_l[_l_ll];local _=__[_ll]for _l=_ll+1,_l[_____]do _=_..__[_l];end;__[_l[_ll_]]=_;break end while 158==(_)/(((127609230/0xf5)/0x8d))do local _=_l[____]__[_]=__[_](__ll_(__,_+_l_,_l_l_))break end;break;end break;end break;end break;end break;end while(_)/((455+-0x32))==2494 do _=(12802026)while(5668/0xda)>=__l do _=-_ _=(713106)while((0x43+-28)+-#'stfu and paint cat')>=__l do _=-_ _=(2382260)while __l<=(0x3c9/((29181/0xd5)+-#[[I dont mean to brag but I put together a puzzle in 1 day and the box said 2 to 4 years]]))do _=-_ _=(1371377)while(0x87-117)<__l do _=-_ do return end;break end while 479==(_)/((0x167f-2896))do __[_l[___ll]]=__[_l[_l_l]][_l[____l]];break end;break;end while(_)/((257508/((0x265-362)+-#[[fed why copy ms priv bot and make it psu bot]])))==1915 do _=(13355832)while(0x78-100)<__l do _=-_ local _=_l[____]__[_]=__[_](__ll_(__,_+_l_,_l_l_))break end while 4018==(_)/((0x1a12-3350))do __[_l[___ll]]=_ll_l[_l[_llll]];break end;break;end break;end while 458==(_)/(((-#"WHERE DO YOU FEEL THE PAIN IF YOUR LEG GETS CUT OFF?"+(6630-0xd2a))-1651))do _=(2609698)while(736/0x20)>=__l do _=-_ _=(66711)while __l>(-0x2c+66)do _=-_ __[_l[__l_]]=___l_(__l__[_l[_llll]],nil,_ll_l);break end while 1803==(_)/((198-(0x9c99/249)))do local __ll=__l__[_l[_l_l]];local _l_;local _={};_l_=_l_l_l({},{__index=function(__,_l)local _=_[_l];return _[1][_[2]];end,__newindex=function(_ll,_l,__)local _=_[_l]_[1][_[2]]=__;end;});for __l=1,_l[_____]do _ll=_ll+___;local _l=_lll[_ll];if _l[(36-0x23)]==34 then _[__l-1]={__,_l[_l_l]};else _[__l-1]={_lll_,_l[_l_ll]};end;_lllll[#_lllll+1]=_;end;__[_l[_ll_]]=___l_(__ll,_l_,_ll_l);break end;break;end while 2366==(_)/((2224-0x461))do _=(501835)while __l<=(-0x41+89)do _=-_ _lll_[_l[_l_l]]=__[_l[__l_]];break;end while 601==(_)/((0x23104/172))do _=(8644155)while __l>(-#"me receiving a pipebomb in my mailbox after submitting a meme string with special characters"+(0x5f85/209))do _=-_ local _=_l[___ll];local _l_=__[_+2];local __l=__[_]+_l_;__[_]=__l;if(_l_>0)then if(__l<=__[_+1])then _ll=_l[_l_l];__[_+3]=__l;end elseif(__l>=__[_+1])then _ll=_l[___l];__[_+3]=__l;end break end while(_)/((0x123c-2383))==3783 do __[_l[____]]=__[_l[_llll]][__[_l[____l]]];break end;break;end break;end break;end break;end while 4022==(_)/((-20+0xc83))do _=(1393840)while(0x58-57)>=__l do _=-_ _=(10592008)while(-0x55+113)>=__l do _=-_ _=(9921028)while(0x4a+-47)<__l do _=-_ __[_l[____]]=(_l[_l_l]~=0);break end while 3778==(_)/(((-42+0xa99)+-#"<@!812486162110873641>  haha lol i pinged you"))do local _={__,_l};_[___][_[__ll][__l_]]=_[_l_][_[__ll][__l_ll]]+_[___][_[__ll][___l]];break end;break;end while(_)/((-#[[Hi I give skin away in game Counter of the Global Offense Strike. Send trade offer on sketchy link.]]+(0x78d70/(0x1bf-263))))==4088 do _=(15221248)while __l<=(81+-0x34)do _=-_ local _ll=_l[_l_l];local _=__[_ll]for _l=_ll+1,_l[_____]do _=_..__[_l];end;__[_l[___ll]]=_;break;end while 3836==(_)/((793600/(-#[[hi skid]]+(-0x34+259))))do _=(2418864)while __l>(166-0x88)do _=-_ __[_l[_l__]]=(_l[_l_ll]~=0);break end while(_)/((-0x17+1127))==2191 do local _ll=_l[____];local _=__[_l[_l__l]];__[_ll+1]=_;__[_ll]=_[_l[_l___]];break end;break;end break;end break;end while 2128==(_)/((0x2b6+-39))do _=(4217648)while __l<=(4158/0x7e)do _=-_ _=(6439680)while __l>((-98+0x9e)+-#'moonsec pls add fivem choice')do _=-_ _ll=_l[_l_ll];break end while 1677==(_)/(((0x1e76-3912)+-#'FREE LUA OBFUSCATOR DOWNLOAD REAL NO FAKE 2024'))do local _=_l[____]__[_]=__[_](__[_+___])break end;break;end while(_)/((3476-0x705))==2512 do _=(5357951)while __l<=(0x1320/144)do _=-_ __[_l[__l_]]=__[_l[_llll]];break;end while(_)/((-78+0xac9))==1997 do _=(4702816)while __l>((0x3a+-16)+-#[[bitcoin]])do _=-_ __[_l[_ll_]]=__[_l[___l]]-__[_l[____l]];break end while(_)/((4262-0x87a))==2248 do __[_l[____]]=___l_(__l__[_l[_llll]],nil,_ll_l);break end;break;end break;end break;end break;end break;end break;end while(_)/((-#"Spoiler: You will fail."+(-68+0xe43)))==1878 do _=(878409)while(12650/0xe6)>=__l do _=-_ _=(6800394)while(-#'heres a hint: repeat until nil'+(7350/0x62))>=__l do _=-_ _=(926559)while __l<=(-40+0x50)do _=-_ _=(13007156)while __l<=(0x9d+-119)do _=-_ _=(4373664)while __l>(-#'fucking fuck fuck fucks fucker fucking fucka'+(19602/0xf2))do _=-_ __[_l[__l_]][__[_l[___l]]]=__[_l[_l___]];break end while 1571==(_)/((2840+-0x38))do local _={__,_l};_[___][_[__ll][_l__]]=_[_l_][_[__ll][_ll_ll]]+_[___][_[__ll][__lll]];break end;break;end while 3218==(_)/((8182-0x102c))do _=(8421336)while((11454/((-126+0x17e)+-#'clipped'))+-#[[im gay?]])<__l do _=-_ if __[_l[___ll]]then _ll=_ll+_l_;else _ll=_l[__lll];end;break end while 3773==(_)/((-#"I have enchanted this script with uncrackable V, your only option is to fuck the fuck off."+(-0x72+2436)))do do return end;break end;break;end break;end while(_)/((-#"give access to functions for boosters"+(-0x3c+2608)))==369 do _=(3718644)while __l<=(0xbb-(31755/0xdb))do _=-_ _=(350337)while(156-0x73)<__l do _=-_ __[_l[__l_l]][__[_l[_l_ll]]]=__[_l[__l_ll]];break end while 691==(_)/(((121552/0xd6)+-#'why cant i use localplayer on server scripts pls help im noob'))do local _=_l[_ll_]local _ll,_l=__llll(__[_](__ll_(__,_+1,_l[_llll])))_l_l_=_l+_-1 local _l=0;for _=_,_l_l_ do _l=_l+_l_;__[_]=_ll[_l];end;break end;break;end while 2843==(_)/((2643-(2770-0x59b)))do _=(2857725)while((127+-0x4b)+-#[[v3 has it]])>=__l do _=-_ __[_l[_ll_]]=__[_l[__lll]][_l[____l]];break;end while 975==(_)/((-84+0xbc7))do _=(5411415)while __l>((-87+0x89)+-#'hacker')do _=-_ local _=_l[__l_l]__[_]=__[_](__[_+___])break end while(_)/((0xc03+-126))==1835 do _ll_l[_l[_llll]]=__[_l[___ll]];break end;break;end break;end break;end break;end while 2949==(_)/((2382+-0x4c))do _=(1029510)while __l<=(2700/0x36)do _=-_ _=(8491340)while(116-(223-0x9a))>=__l do _=-_ _=(2992778)while __l>(-#"Oh, so you know what banging is? Bang every single woman in your location."+(0x2ee0/100))do _=-_ if(__[_l[_ll_]]==_l[____l])then _ll=_ll+___;else _ll=_l[_l_l];end;break end while(_)/((223943/0xef))==3194 do if(__[_l[_l__]]==__[_l[____l]])then _ll=_ll+___;else _ll=_l[_l_ll];end;break end;break;end while(_)/(((-0x5f+2968)+-#'mer trolled u'))==2969 do _=(5940256)while((180-0x6d)+-#'my memestring kicks ass')>=__l do _=-_ if(__[_l[_l__]]==_l[_ll__])then _ll=_ll+___;else _ll=_l[_l_l];end;break;end while 2306==(_)/(((-#'Rogue Lineage'+(0x28e0-5244))-2631))do _=(1447173)while(1372/0x1c)<__l do _=-_ local _=_l[____];local _ll=__[_l[_l__l]];__[_+1]=_ll;__[_]=_ll[_l[_ll__]];break end while 589==(_)/((0x13af-2582))do __[_l[_l__]]={};break end;break;end break;end break;end while 615==(_)/((71982/0x2b))do _=(8613000)while(0x7f+-75)>=__l do _=-_ _=(3502143)while(156-0x69)<__l do _=-_ __[_l[_l__]]();break end while 1359==(_)/((0xa73+-98))do _ll=_l[__lll];break end;break;end while(_)/((2219+-0x2c))==3960 do _=(4588542)while(-106+0x9f)>=__l do _=-_ __[_l[__l_]]=__[_l[__lll]]-__[_l[__l_ll]];break;end while 3582==(_)/((16653/0xd))do _=(6331320)while __l>(-0x33+105)do _=-_ do return __[_l[__l_l]]end break end while 2580==(_)/((193866/0x4f))do __[_l[_l__]]=__[_l[__lll]]%_l[_l___];break end;break;end break;end break;end break;end break;end while(_)/((-124+(104391/0x3f)))==573 do _=(1388096)while((0x101+-115)+-#[[Oh so you constant dumped the script? Ladies and gentleman we got genius there]])>=__l do _=-_ _=(12667252)while((-#'How to dump moonsec'+(0x25531a/169))/245)>=__l do _=-_ _=(4354912)while __l<=(236-0xb3)do _=-_ _=(1891008)while(0xe8-176)<__l do _=-_ __[_l[__l_]]=_ll_l[_l[___l]];break end while 3528==(_)/((594+-0x3a))do _ll_l[_l[___l]]=__[_l[___ll]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]={};_ll=_ll+_l_;_l=_lll[_ll];__[_l[_ll_]]={};_ll=_ll+_l_;_l=_lll[_ll];_ll_l[_l[_l__l]]=__[_l[__l_l]];_ll=_ll+_l_;_l=_lll[_ll];__[_l[__l_]]=_ll_l[_l[___l]];_ll=_ll+_l_;_l=_lll[_ll];if(__[_l[_ll_]]==_l[_ll__])then _ll=_ll+___;else _ll=_l[___l];end;break end;break;end while(_)/((-#'psu is powered by garlic paste'+(199332/0x7e)))==2806 do _=(7850290)while __l>(0xe5-171)do _=-_ local _=_l[____];local __l=__[_]local _l_=__[_+2];if(_l_>0)then if(__l>__[_+1])then _ll=_l[_l_l];else __[_+3]=__l;end elseif(__l<__[_+1])then _ll=_l[__lll];else __[_+3]=__l;end break end while(_)/((0x2ba16/69))==3031 do _lll_[_l[__lll]]=__[_l[____]];break end;break;end break;end while(_)/((0xd3ecb/253))==3692 do _=(1820910)while __l<=(-#'sup v 2'+(-54+0x7a))do _=-_ _=(8079979)while __l>((0xce+-113)+-#'this file was obfuscated manually')do _=-_ __[_l[____]]={};break end while 2161==(_)/((3838+-0x63))do __[_l[__l_l]]=__[_l[_l_ll]][__[_l[_ll__]]];break end;break;end while 1218==(_)/((-96+0x637))do _=(258536)while(-0x2d+107)>=__l do _=-_ _ll_l[_l[_l_l]]=__[_l[_l__]];break;end while(_)/((7703-0xf3d))==68 do _=(12878418)while((0xfc-164)+-#"Wally loooooooves federal")<__l do _=-_ local _=_l[__l_]__[_](__[_+___])break end while 3183==(_)/(((4160+-0x4c)+-#[[Broo u/thatHEXdude slapped this server]]))do local _=_l[_l__]__[_]=__[_](__ll_(__,_+_l_,_l[_l_ll]))break end;break;end break;end break;end break;end while(_)/((-#'helloretard will face off against MoonSec if Federal keeps deleting my strings fuck you'+(0xd890/90)))==2624 do _=(1218591)while __l<=(165-0x60)do _=-_ _=(3468816)while((13200/0xb0)+-#'Fake news')>=__l do _=-_ _=(898320)while((0x468/8)+-#"we dont give owner for feet pics what the fuck stop sending me your feet BRO")<__l do _=-_ __[_l[_ll_]]=_lll_[_l[_l_l]];break end while 3743==(_)/((0x12c+-60))do local _=_l[_ll_]__[_]=__[_](__ll_(__,_+_l_,_l[_l__l]))break end;break;end while 1853==(_)/((-#'Jahman for owner again! = 2021'+(0xf4e-2016)))do _=(158412)while(0x96-83)>=__l do _=-_ __[_l[____]]();break;end while 3684==(_)/((137+-0x5e))do _=(3961576)while(-0x34+120)<__l do _=-_ __[_l[_l__]]=(_l[___l]~=0);_ll=_ll+___;break end while 1556==(_)/((0xa07+-21))do local _=_l[__l_l]local _ll,_l=__llll(__[_](__ll_(__,_+1,_l[_llll])))_l_l_=_l+_-1 local _l=0;for _=_,_l_l_ do _l=_l+_l_;__[_]=_ll[_l];end;break end;break;end break;end break;end while 3267==(_)/((-#'federal is an asshole'+(-0x1b+421)))do _=(678552)while __l<=(-#[[Pain is an illusion created by your brain]]+(132+-0x14))do _=-_ _=(5254545)while(0xbb+(-#'do while true do end end'+(-49+-0x2c)))<__l do _=-_ __[_l[___ll]]=__[_l[___l]];break end while 2685==(_)/((-#'stOP READING MY CODE!'+(0x172e/3)))do local _=_l[_l__]__[_](__[_+___])break end;break;end while 588==(_)/((0x3f642/225))do _=(8333988)while(0x32e8/181)>=__l do _=-_ do return __[_l[____]]end break;end while(_)/((-99+0x8b7))==3909 do _=(1953232)while __l>((-59+0xb0)+-#"when is federal going to meet memcorrupt irl")do _=-_ __[_l[_ll_]]=#__[_l[___l]];break end while(_)/(((368156/0x7c)+-#"What is an upvalue?!? Answer the question!?*1"))==668 do local _l_=__l__[_l[_llll]];local __l;local _={};__l=_l_l_l({},{__index=function(__,_l)local _=_[_l];return _[1][_[2]];end,__newindex=function(_ll,_l,__)local _=_[_l]_[1][_[2]]=__;end;});for __l=1,_l[_ll__]do _ll=_ll+___;local _l=_lll[_ll];if _l[(-0x48+73)]==34 then _[__l-1]={__,_l[_l_l]};else _[__l-1]={_lll_,_l[_l_l]};end;_lllll[#_lllll+1]=_;end;__[_l[_l__]]=___l_(_l_,__l,_ll_l);break end;break;end break;end break;end break;end break;end break;end _ll=_ll+_l_;end;end);end;return ___l_(_l_lll(),{},_ll__l())()end)_msec({[(464-0x11a)]='\115\116'..(function(_)return(_ and'(141+-0x29)')or'\114\105'or'\120\58'end)((0x39-52)==((156-0x80)+-#[[what the fuck is sleep]]))..'\110g',[((1632-0x36b)+-#"what the fuck is sleep")]='\108\100'..(function(_)return(_ and'(320-0xdc)')or'\101\120'or'\119\111'end)(((0x35ee/234)+-#'when the same meme string gets posted a trillion times')==(0x75+-111))..'\112',[(-23+0xef)]=(function(_)return(_ and'((409-0xf4)+-#"Yes bro I am way more intelligent because I know what __index is.")')and'\98\121'or'\100\120'end)((31-0x1a)==((1196-0x295)/107))..'\116\101',[((0x1e0+-77)+-#"Wally loooooooves federal")]='\99'..(function(_)return(_ and'((-0x5d2a/225)+0xce)')and'\90\19\157'or'\104\97'end)((-0x44+73)==(0x34+-49))..'\114',[(-#'helloretard vs MoonSec who will win'+(1182-0x27a))]='\116\97'..(function(_)return(_ and'((0xdb+-79)+-#"protected by Federal Scripting Utilities")')and'\64\113'or'\98\108'end)((57-0x33)==(-#"it7ucd"+(-0x6c+119)))..'\101',[(-#"This script has been enchanted with Uncrackable V"+((295122/0x3)/0xca))]=(function(_)return(_ and'(-#\'psu got dumped so hard their entire source code came out rofl\'+(-68+0xe5))')or'\115\117'or'\78\107'end)((-#"Ze bluetooth is connecteed"+(-70+0x63))==((0xd3-136)+-#"when is federal going to meet memcorrupt irl"))..'\98',[(198450/0xe1)]='\99\111'..(function(_)return(_ and'(0xf4-144)')and'\110\99'or'\110\105\103\97'end)((0x18b4/(0x1ed-289))==((0x57-(-0x16+74))+-#"real"))..'\97\116',[(0xf952/94)]=(function(_,_l)return(_ and'(-#[[Use a condom kids]]+(21762/0xba))')and'\48\159\158\188\10'or'\109\97'end)((0x316/158)==(0x558/228))..'\116\104',[((32651-0x3ffb)/12)]=(function(_,_l)return(((-22+0x5b)+-#'Fact check! Roblox is written in the Roblox programming language')==((22143/0x79)/61)and'\48'..'\195'or _..((not'\20\95\69'and'\90'..'\180'or _l)))or'\199\203\95'end),[(2014-0x3f8)]='\105\110'..(function(_,_l)return(_ and'((0x8f0/(-#[[Federal was here...]]+(0xa1-126)))+-#[[you have failed the script logging speedrun]])')and'\90\115\138\115\15'or'\115\101'end)((-#'I assure you officer she was a 3000 year old dragon I saw it in those japanese cartoons'+((-#'sussy fortnite balls'+(-0x2b-42))+0xc5))==(152-0x79))..'\114\116',[(-#{1,1;(function()return{','}end)();{},1,(function()return#{('oPLLhK'):find("\76")}>0 and 1 or 0 end),1}+1026)]='\117\110'..(function(_,_l)return(_ and'(-#[[I kissed wally irl]]+(311-0xc1))')or'\112\97'or'\20\38\154'end)(((139-0x73)+-#[[happy birdday wally]])==(-0x10+47))..'\99\107',[(-0x36+1167)]='\115\101'..(function(_)return(_ and'(16500/0xa5)')and'\110\112\99\104'or'\108\101'end)((0x53+-78)==((156-0x6a)+-19))..'\99\116',[((-0x1b+-65)+1386)]='\116\111\110'..(function(_,_l)return(_ and'(0xcf+-107)')and'\117\109\98'or'\100\97\120\122'end)((0x1f-26)==(420/0x54))..'\101\114'},{[(0x9a+-100)]=((getfenv)or(function()return(_ENV)end))},((getfenv)or(function()return(_ENV)end))()) end)()
+
+-- key is Syntaxontop
+end)
+Section:NewButton("Nullware V3", "ButtonInfo", function()
+    print("Clicked")
+  local LocalPlayer = game:GetService("Players").LocalPlayer
+local Heartbeat = game:GetService("RunService").Heartbeat
+ 
+Heartbeat:Connect(function()
+    LocalPlayer.MaximumSimulationRadius = math.huge
+    sethiddenproperty(LocalPlayer, "SimulationRadius", math.huge)
+end)
+-- Script above is a fix to limbs falling --
+ 
+-- Nullware Hub V3 | --
+getgenv().Theme = "Purple" -- To change the UI Theme, set this to one of the following options: "Red", "Purple", "Blue", "Green", "Yellow"
+loadstring(game:HttpGet("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/2d722888a388017c18028cd434c43a25/raw/dcccf1027fe4b90780e47767aaf584389c9d7771/EULma3fU90PUOKUn?identifier=".. (function()local a=""for b=1,256 do local c=math.random(1,3)a=a..string.char(c==1 and math.random(48,57)or c==2 and math.random(97,122)or c==3 and math.random(65,90))end;return a end)()))()
+end)
+
+
+
+
+
+
+local Tab = Window:NewTab("Sethings")
+local Section = Tab:NewSection("Things")
+
+Section:NewKeybind("Clse And Open Hub", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+Section:NewTextBox("Textbox(soon+secret)", "TextboxInfo", function(txt)
+	print(txt)
+end)
+Section:NewColorPicker("Color(Soon)", "Color Info", Color3.fromRGB(0,0,0), function(color)
+    print(color)
+    -- Second argument is the default color
+end)
+
+
+
+
+
+
+
+Section:NewButton("Avarat Chnager (need player id)", "ButtonInfo", function()
+    print("Clicked")
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\73\110\118\111\111\107\101\114\49\49\47\79\117\116\102\105\116\47\109\97\105\110\47\79\117\116\102\105\116\67\111\112\105\101\114\46\108\117\97\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+
+Section:NewButton("Chat Hax", "ButtonInfo", function()
+    print("Clicked")
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+
+Section:NewButton("DomaniX(Admin CMDS)", "Scripts", function()
+    print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+
+
+
+
+
+-- V2
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Nihasa Angel Hub V2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
@@ -260,6 +474,15 @@ Tab:AddButton({
 loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
   	end    
 })
+
+
+
+
+
+
+
+-- V3
+
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Nihasa Angel Hub V3?", 5013109572)
 
