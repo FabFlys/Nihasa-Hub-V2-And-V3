@@ -1,4 +1,4 @@
--- V1
+-- V1  Yep it works!
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Angel Nihasa Hub V1", "LightTheme")
 local Tab = Window:NewTab("Discord")
